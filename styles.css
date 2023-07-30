@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header nav {
+  margin-top: 20px;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+  color: #ff5500;
+}
+
+/* Secciones */
+section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ff5500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero section */
+.hero {
+  background-color: #ff5500;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero h2 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #ff5500;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff8833;
+  color: #fff;
+}
+
+/* Dark background section */
+.dark-bg {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-bg p {
+  color: #fff;
+}
+
+/* Skills list */
+.skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list li {
+  background-color: #ff5500;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+/* Projects list */
+.projects-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.projects-list h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Enlaces */
+a {
+  color: #ff5500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* Estilos adicionales para ajustar el tamaño de las imágenes */
+.project-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5%;
+}
+
