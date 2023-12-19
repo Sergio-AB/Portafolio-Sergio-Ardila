@@ -137,37 +137,31 @@ section h2 {
   border-radius: 5px;
 }
 
-/* Projects list */
-.projects-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* Project item styles */
+.projects-list .project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
-.projects-list li {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 20px;
+.projects-list .project-item.reversed {
+  flex-direction: row-reverse;
 }
 
-.projects-list h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.project-details {
+  flex: 1;
+  text-align: left;
+  margin-right: 20px; /* Puedes ajustar este valor según sea necesario */
+  padding: 48px;
 }
 
-.projects-list h4 {
-  font-size: 24px;
-  margin-bottom: 10px;
+.project-image-container {
+  flex: 1;
+  text-align: right;
+  margin-right: 30px;
 }
 
-/* Footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px 0;
-}
 
 /* Enlaces */
 a {
@@ -182,8 +176,27 @@ a:hover {
 
 /* Estilos adicionales para ajustar el tamaño de las imágenes */
 .project-image {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   border-radius: 5%;
 }
 
+.project-details.project-details-yellow {
+  background-color:#ffd602 ; 
+  border-radius: 30px;
+}
+
+.project-details.project-details-blue {
+  background-color:#87CEEB ; 
+  border-radius: 30px;
+}
+
+.project-details.project-details-grey {
+  background-color: #D3D3D3; 
+  border-radius: 30px;
+}
+
+.project-details.project-details-purple {
+  background-color: #a68fc0; 
+  border-radius: 30px;
+}
