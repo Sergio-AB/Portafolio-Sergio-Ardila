@@ -156,6 +156,11 @@ section h2 {
   margin-bottom: 10px;
 }
 
+.projects-list h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
   background-color: #333;
